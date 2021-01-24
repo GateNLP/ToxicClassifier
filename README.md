@@ -40,3 +40,6 @@ pip
 - `l`: language (currently only supports "en")
 - `c`: classifier (currently only supports "kaggle")
 - `g`: gpu (default=False)
+
+## Output
+The output is composed by the predicted class and the probabilities of each class. 
