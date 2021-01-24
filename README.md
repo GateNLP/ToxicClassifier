@@ -36,8 +36,7 @@ pip
 `python __main__.py -t "Bastard!"` (should return 1 = toxic)
 
 ## Options
-`t`: text
-`l`: language (currently only supports "en")
-`c`: classifier (currently only supports "kaggle")
-`g`: gpu (default=False)
-
+- `t`: text
+- `l`: language (currently only supports "en")
+- `c`: classifier (currently only supports "kaggle")
+- `g`: gpu (default=False)
