@@ -25,4 +25,4 @@ classifier = ToxicClassifier(v_args['c'], l, g)
 
 
 
-print(classifier.classify([text]))
+print(classifier.classify(text))

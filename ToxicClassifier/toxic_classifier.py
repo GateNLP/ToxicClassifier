@@ -14,7 +14,7 @@ class ToxicClassifier():
         )
 
     def classify(self, text):
-         test_predictions, raw_outputs = self.model.predict(text)
+         test_predictions, raw_outputs = self.model.predict([text])
          probabilities = list(softmax(raw_outputs[0])[0])
          return test_predictions[0], probabilities
 
