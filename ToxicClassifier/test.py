@@ -3,7 +3,7 @@ import argparse
 from toxic_classifier import ToxicClassifier
 import pandas as pd
 import time
-
+import os
 
 
 #Load config: 
@@ -29,7 +29,7 @@ classifier = ToxicClassifier(v_args['c'], l, g)
 df = pd.read_csv(f)
 
 start = time.time()
-for t in df['comment_text']: 
-    print(classifier.classify([t]))
+for t in df['comment_text']:
+    print(classifier.classify(t))
 end = time.time()
 print(end - start)
