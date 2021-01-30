@@ -103,7 +103,7 @@ async def process_request():
 
     annot = {"start": 0, "end": len(content), "features": features}
 
-    annotations.setdefault(annotationType+"Classifier", []).append(annot)
+    annotations.setdefault(annotationType+"Language", []).append(annot)
 
     return dict(response = { 'type':'annotations', 'annotations':annotations  })
 

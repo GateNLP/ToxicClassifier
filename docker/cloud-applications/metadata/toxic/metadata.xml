@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata xmlns="http://gate.ac.uk/ns/pipeline-metadata">
-  <pipeline-name>Toxic Classifier</pipeline-name>
+  <pipeline-name>Toxic Language Classifier</pipeline-name>
   <slug>toxic-classifier</slug>
   <ordering>80</ordering>
-  <annotation-selectors>:ToxicClassifier</annotation-selectors>
+  <annotation-selectors>:ToxicLanguage</annotation-selectors>
   <additional-annotations></additional-annotations>
   <tags>
     <tag>Abuse</tag>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata xmlns="http://gate.ac.uk/ns/pipeline-metadata">
-  <pipeline-name>Offensive Classifier</pipeline-name>
+  <pipeline-name>Offensive Language Classifier</pipeline-name>
   <slug>offensive-classifier</slug>
   <ordering>80</ordering>
-  <annotation-selectors>:OffensiveClassifier</annotation-selectors>
+  <annotation-selectors>:OffensiveLanguage</annotation-selectors>
   <additional-annotations></additional-annotations>
   <tags>
     <tag>Abuse</tag>
