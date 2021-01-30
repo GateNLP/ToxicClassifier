@@ -1,0 +1,20 @@
+<p class="clearfix">This classifier is a fine-tuned Roberta-base model using the <a href="https://simpletransformers.ai/">simpletransformers toolkit. We use the <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/overview">Kaggle Toxic Comments Challenge dataset</a> as training data. This dataset contains Wikipedia comments classified as toxic or non-toxic. </p>
+
+<p><button class="btn btn-info" data-toggle="collapse" data-target="#ldAnnotationDetails"><i class="icon-info-sign icon-white"></i> Annotation details</button></p>
+
+<div class="collapse clearfix" id="ldAnnotationDetails">
+<table>
+  <tr>
+    <td colspan="2"><b>Default annotations</b></td>
+  </tr>
+  <tr>
+    <td><tt>:ToxicClassifier</tt></td>
+    <td>an annotation which spans the entire document and has the following features:
+      <ul>
+        <li><tt>isToxic</tt>, true if the classifier has determined the text is toxic, false otherwise</li>
+	<li><tt>probability</tt>, the probability with which the classifier assigned the isToxic label</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</div>
