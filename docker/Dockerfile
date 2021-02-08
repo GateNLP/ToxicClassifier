@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.7-slim
 
 # Install tini and create an unprivileged user
 ADD https://github.com/krallin/tini/releases/download/v0.19.0/tini /sbin/tini
