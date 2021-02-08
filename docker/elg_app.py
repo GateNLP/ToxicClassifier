@@ -21,6 +21,7 @@
 
 from quart import Quart, request
 from quart.exceptions import BadRequest
+from quart.utils import run_sync
 import cgi
 import codecs
 import os
@@ -94,7 +95,7 @@ async def process_request():
 
     annotations = dict()
 
-    prediction, probabilities = classify(content)
+    prediction, probabilities = await run_sync(classify)(content)
 
     features = dict()
 
