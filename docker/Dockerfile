@@ -28,3 +28,5 @@ ARG ANNOTATION_TYPE
 ENV WORKERS=1 REQUEST_SIZE_LIMIT=100000 ANNOTATION_TYPE=$ANNOTATION_TYPE
 
 ENTRYPOINT ["./docker-entrypoint.sh"]
+
+LABEL org.opencontainers.image.source=https://github.com/GateNLP/ToxicClassifier
