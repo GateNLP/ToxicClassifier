@@ -4,7 +4,7 @@ The toxic and offensive classifiers are deployed on GATE Cloud via a two step pr
 
 ## Building the Python classifier images
 
-The Python-based classifiers for toxic and offensive language can be built using the `./build.sh` script in this directory.  The images are pushed to the GitHub container registry:
+The Python-based classifiers for toxic (kaggle dataset) and offensive (olid dataset) language can be built using the `./build.sh` script in this directory.  The relevant model files must be downloaded and unpacked in `../models` as described in [the main README](../README.md).  The images are pushed to the GitHub container registry:
 
 ```
 TAG=ghcr.io/gatenlp/toxicclassifier/toxic-classifier:latest ./build.sh en/kaggle Toxic

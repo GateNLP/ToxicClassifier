@@ -29,7 +29,7 @@ pip
 ## Models
 
 1. Download models from [the latest release of this repository](https://github.com/GateNLP/ToxicClassifier/releases/latest) (currently available `kaggle.tar.gz`, `olid.tar.gz`)
-2. Decompress file inside `models/en/`
+2. Decompress file inside `models/en/` (which will create `models/en/kaggle` or `models/en/olid` respectively)
 
 ## Basic Usage
 
