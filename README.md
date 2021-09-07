@@ -28,7 +28,7 @@ pip
 
 ## Models
 
-1. Download models from `gateservice8:/export/data/carolina/ToxicClassifier/models/en/` (currently available `kaggle.tar.gz`)
+1. Download models from [the latest release of this repository](https://github.com/GateNLP/ToxicClassifier/releases/latest) (currently available `kaggle.tar.gz`, `olid.tar.gz`)
 2. Decompress file inside `models/en/`
 
 ## Basic Usage
@@ -45,3 +45,6 @@ pip
 
 ## Output
 The output is composed by the predicted class and the probabilities of each class. 
+
+## REST Service
+Pre-built Docker images are available for a REST service that accepts text and returns a classification according to the relevant model - see the "packages" section for more details.
