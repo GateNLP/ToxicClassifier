@@ -2,7 +2,7 @@
 
 Toxic Classifiers developed for the GATE Cloud. Two models are available:
 - kaggle: trained on the [Kaggle Toxic Comments Challenge dataset](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/overview).
-- olid: trained on the [OLIDv1 dataset from OffensEval 2019](https://sites.google.com/site/offensevalsharedtask/olid).
+- olid: trained on the [OLIDv1 dataset from OffensEval 2019](https://sites.google.com/site/offensevalsharedtask/olid) ([paper](https://aclanthology.org/N19-1144/))
 
 We fine-tuned a `Roberta-base` model using the [`simpletransformers`](https://simpletransformers.ai/) toolkit.
 
